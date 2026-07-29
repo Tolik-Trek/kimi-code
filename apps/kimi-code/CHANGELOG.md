@@ -1,5 +1,15 @@
 # @moonshot-ai/kimi-code
 
+## 0.31.0
+
+### Minor Changes
+
+- [#2314](https://github.com/MoonshotAI/kimi-code/pull/2314) [`02d77b2`](https://github.com/MoonshotAI/kimi-code/commit/02d77b20d941873563f14890e049ffe40cec76e4) Thanks [@7Sageer](https://github.com/7Sageer)! - Allow enabled plugins to contribute agent system-prompt instructions through `systemPrompt` or `systemPromptPath` in `kimi.plugin.json`, effective on both agent engines (the TUI, `kimi -p`, and `kimi web`).
+
+- [#2232](https://github.com/MoonshotAI/kimi-code/pull/2232) [`efac96c`](https://github.com/MoonshotAI/kimi-code/commit/efac96c8a95a3c3ca4e1ae9bce38082498a02b2e) Thanks [@7Sageer](https://github.com/7Sageer)! - Support Markdown-defined custom agents on agent-core.
+
+- [#2232](https://github.com/MoonshotAI/kimi-code/pull/2232) [`efac96c`](https://github.com/MoonshotAI/kimi-code/commit/efac96c8a95a3c3ca4e1ae9bce38082498a02b2e) Thanks [@7Sageer](https://github.com/7Sageer)! - Add the /secondary_model slash command to configure the secondary model used by subagents.
+
 ## 0.30.0
 
 ### Minor Changes
